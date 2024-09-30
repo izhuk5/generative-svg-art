@@ -11,7 +11,7 @@ const svg = new SvJs().addTo(document.getElementById('container'));
 svg.set({ width: svgSize, height: svgSize, viewBox: '0 0 1000 1000' });
 
 // A simple circle example.
-svg.create('circle').set({ cx: 50, cy: 50, r: 25 });
+// svg.create('circle').set({ cx: 50, cy: 50, r: 25 });
 
 // Circle overlay loop.
 for (let i = 1; i <= 6; i += 1) {
